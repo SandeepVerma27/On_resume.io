@@ -23,7 +23,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(66, 66, 255);
+  color: white;
 }
 
 /* image  */
@@ -394,7 +394,7 @@ hr {
 }
 
 #phone2 {
-  color: rgb(66, 66, 255);
+  color: whitesmoke;
   display: block;
   /* text-decoration: underline; */
   font-size: 1.6rem;
@@ -457,4 +457,15 @@ hr {
 
 .group-3 {
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 400px) {
+  .profile_profileImg img {
+    display: none;
+  }
+
+  .conatact1 {
+    left: 14%;
+    margin-top: 17%;
+  }
 }
