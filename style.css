@@ -227,93 +227,6 @@ img {
 .awards_item {
   margin-top: 2rem;
 }
-/* Interests */
-.interest_items {
-  margin-top: 2rem;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-.interest_item {
-  font-size: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  color: var(--text-color);
-}
-.interest_item svg {
-  width: 2rem;
-}
-
-/* socials */
-.social_items {
-  margin-top: 2rem;
-  position: relative;
-}
-
-.social_item {
-  margin-top: 1.5rem;
-  font-size: 1.5rem;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: flex-start;
-  color: var(--text-color);
-}
-.social_item #git {
-  font-size: 35px;
-  margin-left: -60px;
-}
-
-.social_item #git2 {
-  font-size: 20px;
-  position: absolute;
-  bottom: -40px;
-  left: -70px;
-  color: white;
-}
-
-.social_item #link2 {
-  font-size: 20px;
-  position: absolute;
-  bottom: -40px;
-  left: 50px;
-  color: white;
-}
-
-.social_item #insta2 {
-  font-size: 20px;
-  position: absolute;
-  bottom: -40px;
-  left: 190px;
-  color: white;
-}
-
-.social_item #link {
-  margin-left: 100px;
-  font-size: 35px;
-}
-.social_item #insta {
-  font-size: 35px;
-  margin-left: 100px;
-}
-
-.social_item #link:hover {
-  color: #0072b1;
-}
-
-.social_item #insta:hover {
-  color: #d62976;
-}
-
-.social_item #git:hover {
-  color: white;
-}
-.social_item svg {
-  width: 2rem;
-}
 
 @media only screen and (max-width: 768px) {
   .social_items {
@@ -396,7 +309,7 @@ hr {
 #phone2 {
   color: whitesmoke;
   display: block;
-  /* text-decoration: underline; */
+
   font-size: 1.6rem;
   margin-top: 1rem;
 }
@@ -428,7 +341,7 @@ hr {
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 411px) {
   .contact_info #phone {
     position: absolute;
   }
@@ -466,6 +379,17 @@ hr {
 
   .conatact1 {
     left: 14%;
-    margin-top: 17%;
+    margin-top: 10%;
+  }
+}
+
+.description span i {
+  font-size: 18px;
+  /* padding: 4px; */
+}
+
+@media only screen and (max-width: 1092px) {
+  #san {
+    display: none;
   }
 }
