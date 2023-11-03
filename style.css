@@ -7,7 +7,7 @@
 }
 :root {
   --primary-color: #ff7613;
-  --text-color: #a2a0a0;
+  --text-color: #9f9f9f;
 }
 html {
   font-size: 10px;
@@ -15,7 +15,7 @@ html {
 body {
   font-family: Inter, sans-serif;
   background-color: rgb(255, 255, 255);
-  color: white;
+  color: rgb(255, 255, 255);
   margin: 20px 0px;
 }
 
@@ -23,7 +23,7 @@ body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 /* image  */
@@ -56,6 +56,7 @@ img {
   font-weight: 400;
   color: var(--text-color);
 }
+
 .title {
   color: var(--primary-color);
   font-weight: 700;
@@ -69,7 +70,7 @@ img {
 }
 .item_title {
   font-size: 1.6rem;
-  color: white;
+  color: rgb(237, 237, 237);
   font-weight: 500;
   margin: 0.8rem 0;
 }
@@ -156,9 +157,10 @@ img {
   max-width: 250px;
 }
 .profile_name_firstName {
-  color: white;
+  /* color: white; */
+  color: rgb(231, 231, 231);
   font-weight: 500;
-  font-size: clamp(2rem, 8vw, 4rem);
+  font-size: clamp(2rem, 8vw, 3.7rem);
   text-transform: uppercase;
   display: block;
   margin-bottom: -0.8rem;
@@ -167,7 +169,7 @@ img {
 .profile_name_lastName {
   color: var(--primary-color);
   font-weight: 700;
-  font-size: clamp(2.5rem, 15vw, 7rem);
+  font-size: clamp(2.5rem, 15vw, 6rem);
   text-transform: uppercase;
   display: block;
 }
@@ -243,6 +245,7 @@ img {
     position: absolute;
     bottom: -20px;
     left: -40px;
+    color: rgb(121, 110, 110);
     color: white;
   }
 
@@ -252,23 +255,6 @@ img {
     bottom: -20px;
     left: 50px;
     color: white;
-  }
-
-  .social_item #insta2 {
-    font-size: 15px;
-    position: absolute;
-    bottom: -20px;
-    left: 140px;
-    color: white;
-  }
-
-  .social_item #link {
-    margin-left: 60px;
-    font-size: 25px;
-  }
-  .social_item #insta {
-    font-size: 25px;
-    margin-left: 80px;
   }
 }
 
@@ -307,7 +293,8 @@ hr {
 }
 
 #phone2 {
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  color: rgb(217, 217, 217);
   display: block;
 
   font-size: 1.6rem;
@@ -319,7 +306,7 @@ hr {
 }
 
 #phone {
-  color: #a2a0a0;
+  color: rgb(132, 129, 129);
 }
 
 @media only screen and (max-width: 768px) {
